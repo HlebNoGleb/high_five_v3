@@ -18,7 +18,7 @@
  
     $.fn.doubletap = function(onDoubleTapCallback, onTapCallback, delay){
         var eventName, action;
-        delay = delay == null? 500 : delay;
+        delay = delay == null? 100 : delay;
         eventName = isiOS == true? 'touchend' : 'click';
  
         $(this).bind(eventName, function(event){
@@ -26,7 +26,7 @@
             var lastTouch = $(this).data('lastTouch') || now + 1 /** the first time this will make delta a negative number */;
             var delta = now - lastTouch;
             clearTimeout(action);
-            if(delta<500 && delta>0){
+            if(delta<100 && delta>0){
                 if(onDoubleTapCallback != null && typeof onDoubleTapCallback == 'function'){
                     onDoubleTapCallback(event);
                 }
