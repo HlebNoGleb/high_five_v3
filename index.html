@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/dbtapplugin.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<div class="nav_bg">
+				<div class="container">
+					<div class="row">
+						<a>
+							<div class="logo">
+								<img src="img/hf.svg">
+							</div>
+						</a>
+						<div class="menu_links">
+							<a href="">Компания</a>
+							<a href="">Услуги</a>
+							<a href="">Портфолио</a>
+							<a href="">Решения</a>
+							<a href="">Контакты</a>
+						</div>
+						<div class="menu_numbers">
+							<div class="col">
+								<a>+375 29 999-99-99</a>
+								<a>+375 29 999-99-99</a>
+							</div>
+						</div>
+						<div class="menu_buttons">
+							<button class="empty">Оставить заявку</button>
+							<button class="full">Заказать зонок</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<section class="first_screen">
+				<div class="main_text">
+					<h2>Lorem ipsum dolor.</h2>
+					<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			
+			<div class="categories">
+				<div class="row">
+					<div class="category">
+						<h3>Услуги</h3>
+						<img src="img/money.svg">
+						<p class="small">Наши услуги</p>
+					</div>
+					<div class="category">
+						<h3>Услуги</h3>
+						<img src="img/money.svg">
+						<p class="small">Наши услуги</p>
+					</div>
+					<div class="category">
+						<h3>Услуги</h3>
+						<img src="img/money.svg">
+						<p class="small">Наши услуги</p>
+					</div>
+				</div>
+			</div>
+			<div class="down">
+				<button class="empty">	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;</button>
+			</div>
+		</section>
+		<script type="text/javascript">
+			$('body').doubletap(
+    /** doubletap-dblclick callback */
+    function(event){
+        alert('double-tap');
+    },
+    /** touch-click callback (touch) */
+    /** doubletap-dblclick delay (default is 500 ms) */
+    400
+);
+		</script>
+	</body>
+</html>
