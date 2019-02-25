@@ -3,83 +3,61 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/dbtapplugin.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
 	</head>
 	<body>
-		<nav>
-			<div class="nav_bg">
+		<header>
+			<div class="top_header">
 				<div class="container">
 					<div class="row">
-						<a>
-							<div class="logo">
-								<img src="img/hf.svg">
-							</div>
-						</a>
+						<div class="logo">
+							<img src="img/logo-HighFive.svg">
+						</div>
 						<div class="menu_links">
-							<a href="">Компания</a>
-							<a href="">Услуги</a>
-							<a href="">Портфолио</a>
-							<a href="">Решения</a>
-							<a href="">Контакты</a>
+							<div class="menu_link"><a href="">Контекст и SEO</a></div>
+							<div class="menu_link"><a href="">Внедрение CRM</a></div>
+							<div class="menu_link"><a href="">Создание сайтов</a></div>
+							<div class="menu_link"><a href="">Брендинг</a></div>
+							<div class="menu_link"><a href="">SMM</a></div>
 						</div>
-						<div class="menu_numbers">
-							<div class="col">
-								<a>+375 29 999-99-99</a>
-								<a>+375 29 999-99-99</a>
+						<div class="row phone_btn">
+							<div class="phones">
+								<div class="current_phone">
+									<a href=""><p>+375 29 999 99 99</p></a>
+								</div>
 							</div>
-						</div>
-						<div class="menu_buttons">
-							<button class="empty">Оставить заявку</button>
-							<button class="full">Заказать зонок</button>
+							<div><button class="btn">Заказать звонок</button></div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</nav>
+			<div class="bottom_header">
+				<div class="bottom_header_container">
+					<div class="menu_links">
+						<div class="menu_link"><a href="">Компания</a></div>
+						<div class="menu_link"><a href="">Услуги</a></div>
+						<div class="menu_link"><a href="">Портфолио</a></div>
+						<div class="menu_link"><a href="">Решения</a></div>
+						<div class="menu_link"><a href="">Контакты</a></div>
+					</div>
+				</div>
+			</div>
+		</header>
 		<section class="first_screen">
+			<div class="content">
+				<h1>Lorem ipsum dolor sit amet.</h1>
+				<div class="crm_img">
+					<img src="img/Element.svg">
+				</div>
 				<div class="main_text">
-					<h2>Lorem ipsum dolor.</h2>
-					<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus beatae error ad asperiores dolore! Qui facere sequi quaerat mollitia facilis autem aperiam assumenda, quasi, optio id architecto eum, eaque rem!</p>
 				</div>
-			
-			<div class="categories">
-				<div class="row">
-					<div class="category">
-						<h3>Услуги</h3>
-						<img src="img/money.svg">
-						<p class="small">Наши услуги</p>
-					</div>
-					<div class="category">
-						<h3>Услуги</h3>
-						<img src="img/money.svg">
-						<p class="small">Наши услуги</p>
-					</div>
-					<div class="category">
-						<h3>Услуги</h3>
-						<img src="img/money.svg">
-						<p class="small">Наши услуги</p>
-					</div>
-				</div>
-			</div>
-			<div class="down">
-				<button class="empty">	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;</button>
-			</div>
+				<button class="first_btn">Lorem ipsum.</button>
+			</div>			
 		</section>
-		<script type="text/javascript">
-			$('body').doubletap(
-    /** doubletap-dblclick callback */
-    function(event){
-        alert('double-tap');
-    },
-    /** touch-click callback (touch) */
-    /** doubletap-dblclick delay (default is 500 ms) */
-    100
-);
-		</script>
+		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
