@@ -201,13 +201,23 @@
         stroke-width: 2px;
       }
       #ecommmerce_animation_right{
-        animation: rotate_r 6s ease-in-out infinite;
+        animation: rotate_r 4s ease-in-out infinite;
         <!-- transform-origin:center center; -->
       }
       #ecommmerce_animation_left{
-        animation: rotate_l 6s ease-in-out infinite;
+        animation: rotate_l 4s ease-in-out infinite;
         <!-- transform-origin:center center; -->
       }
+      <!-- @keyframes rotate_r {
+        100% {
+        transform:  rotate(360deg) ;
+      } 
+      }
+       @keyframes rotate_l {
+        100% {
+        transform:  rotate(-360deg) ;
+      } 
+      } -->
       @keyframes rotate_r {
         60% {
           transform:  rotate(360deg) ;
