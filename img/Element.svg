@@ -223,13 +223,13 @@
           transform:  rotate(360deg) ;
         } 
         65%{
-          transform:  rotate(340deg) ;
+          transform:  rotate(300deg) ;
         }
         70%{
           transform:  rotate(360deg) ;
         }
         75%{
-          transform:  rotate(340deg) ;
+          transform:  rotate(300deg) ;
         }
         100% {
           transform:  rotate(360deg) ;
@@ -240,13 +240,13 @@
           transform:  rotate(-360deg) ;
         } 
         65%{
-          transform:  rotate(-340deg) ;
+          transform:  rotate(-300deg) ;
         }
         70%{
           transform:  rotate(-360deg) ;
         }
         75%{
-          transform:  rotate(-340deg) ;
+          transform:  rotate(-300deg) ;
         }
         100% {
           transform:  rotate(-360deg) ;
