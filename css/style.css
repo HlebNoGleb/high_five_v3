@@ -271,7 +271,7 @@ h1{
 		position: relative;
 	}
 	.content{
-		padding: 50px 0 0 0;
+		padding: 50px  0;
 		position: relative;
 		top: 0;
 		left: 0;
@@ -310,6 +310,11 @@ h1{
 	}
 	.slide_text{
 		padding: 30px 20px;
+	}
+	.first_screen {
+	    background-color: #53A2A9;
+	    height: auto;
+	    position: relative;
 	}
 
 		
