@@ -201,14 +201,14 @@
         stroke-width: 2px;
       }
       #ecommmerce_animation_right{
-        animation: rotate_r 8s ease-in-out infinite;
+        animation: rotate_r 4s ease-in-out infinite;
         <!-- transform-origin:center center; -->
       }
       #ecommmerce_animation_left{
-        animation: rotate_l 8s ease-in-out infinite;
+        animation: rotate_l 4s ease-in-out infinite;
         <!-- transform-origin:center center; -->
       }
-      <!-- @keyframes rotate_r {
+      @keyframes rotate_r {
         100% {
         transform:  rotate(360deg) ;
       } 
@@ -217,8 +217,8 @@
         100% {
         transform:  rotate(-360deg) ;
       } 
-      } -->
-      @keyframes rotate_r {
+      }
+      <!-- @keyframes rotate_r {
         60% {
           transform:  rotate(360deg) ;
         } 
@@ -251,7 +251,7 @@
         100% {
           transform:  rotate(-360deg) ;
         } 
-      }
+      } -->
 }
     </style>
     <linearGradient id="linear-gradient" x1="1.365" y1="-0.521" x2="0.495" y2="0.506" gradientUnits="objectBoundingBox">
