@@ -11,7 +11,14 @@ body{
 header{
 	/*position: fixed;*/
 	width: 100%;
-	z-index: 1000
+	z-index: 1000;
+	position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+.nav-up {
+    top: -140px;
 }
 .container{
 	max-width: 1366px;
@@ -98,7 +105,7 @@ header{
 }
 .content{
 	position: absolute;
-	top: 42%;
+	top: 54%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 95%;
@@ -336,7 +343,7 @@ h3{
 		justify-content: space-around;
 	}
 	.content{
-		top: 38%;
+		top: 57%;
 	}
 	.crm_img img{
 		width: 25%;
