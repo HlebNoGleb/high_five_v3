@@ -18,7 +18,7 @@ header{
     width: 100%;
 }
 .nav-up {
-    top: -140px;
+    top: -90px;
 }
 .container{
 	max-width: 1366px;
@@ -41,6 +41,7 @@ header{
 }
 .bottom_header{
 	background-color: #fff;
+	filter: drop-shadow(0 6px 6px rgba(0,0,0,.5));
 }
 .bottom_header_container{
 	max-width: 900px;
