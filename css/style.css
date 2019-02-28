@@ -112,7 +112,7 @@ h1{
 }
 h3{
 	font-size: calc(1em + 1vw);
-	font-weight: 400;
+	/*font-weight: 400;*/
 	color: white;	
 	padding: 10px 0;
 	font-weight: 500;
@@ -542,4 +542,16 @@ h3{
 	.bottom_header .menu_links{
 		flex-direction: row;
 	}
+}
+@font-face{
+ font-family: "montserrat";
+ src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+ font-style: normal; 
+ font-weight: 400; 
+}
+@font-face{
+ font-family: "montserrat";
+ src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+ font-style: normal; 
+ font-weight: 500; 
 }
