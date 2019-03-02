@@ -113,7 +113,7 @@ footer a{
 }
 .sixth_screen{
 	padding: 50px 0;
-	background-image: url(../img/background.svg);
+	background-image: url(../img/background.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -448,7 +448,7 @@ h3{
 	width: 45%;
 }
 .call_back_form_img{
-	background-image: url(../img/abstract-accuracy-accurate-262438.svg);
+	background-image: url(../img/abstract-accuracy-accurate-262438.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
