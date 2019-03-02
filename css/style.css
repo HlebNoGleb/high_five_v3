@@ -212,7 +212,7 @@ h3{
 .second_text{
 	font-size: calc(1em + .2vw);
 	color: rgba(6, 35, 43, .2);
-	padding: 10px 0 0 5px;
+	padding: 10px 0 0 0;
 	font-weight: 300;
 }
 .slide_subtitle{
@@ -438,7 +438,7 @@ h3{
 .flex_col_base{
 	flex-basis: 47%;
 }
-.seventh_screen .container{
+.seventh_screen .container .row{
 	filter: drop-shadow(0 3px 6px rgba(0,0,0,.2));
 }
 .call_back_form{
@@ -446,6 +446,7 @@ h3{
 	position: relative;
 	height: 80vh;
 	width: 45%;
+	border-radius:  6px 0 0 6px ;
 }
 .call_back_form_img{
 	background-image: url(../img/abstract-accuracy-accurate-262438.jpg);
@@ -736,6 +737,12 @@ footer{
 		
 }
 @media (max-width: 500px){
+	.third_screen .btn{
+		display: none;
+	}
+	.slide_title_text {
+    	padding-bottom: 20px;
+	}
 	.before_price img{
 		width: 100px;
 	}
@@ -761,6 +768,24 @@ footer{
 		width: 100%;
 		background-color:rgba(83, 162, 169, .8);
 		position: relative;
+	}
+	.second_screen{
+		padding: 20px 0;
+	}
+	.third_screen{
+		padding: 20px 0;
+	}
+	.fifth_screen{
+		padding: 20px 0;
+	}
+	.sixth_screen{
+		padding: 20px 0;
+	}
+	.seventh_screen{
+		padding: 20px 0;
+	}
+	.inform_content{
+		padding: 20px 0;
 	}
 }
 @media (max-width: 320px){
