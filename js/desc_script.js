@@ -38,3 +38,10 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+$(".menu_links").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href');
+        var top = $(id).offset().top;
+        var header = $('.bottom_header').height();
+        $('body,html').animate({scrollTop: top-header}, 1500);
+});
