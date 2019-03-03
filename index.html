@@ -7,6 +7,29 @@
 		<title>Document</title>
 	</head>
 	<body>
+		<div class="mask">
+			<div class="popup">				
+				<div class="call_back_form">
+					<div class="call_back_form_content">
+						<div class="cross">
+							<img src="img/delete-button.svg">
+						</div>
+						<div class="call_back_form_text">
+							<p class="call_back_form_title">Оставить заявку</p>
+							<p class="call_back_form_subtitle">Контактные данные</p>
+						</div>
+						<form class="popup_form" method="POST" action="soap.php">
+							<div class="col form_inputs">
+								<input type="text" name="name" placeholder="Имя">
+								<input type="tel" name="phone" placeholder="Телефон" required="">
+								<input type="email" name="mail" placeholder="E-mail">
+								<button class="btn" type="submit">Отправить заявку</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 		<nav>
 			<div class="burger_section">
 				<a class="burger_menu-btn experimental">
@@ -15,11 +38,16 @@
 			</div>
 			<div class="burger_menu">
 				<div class="burger_menu_links">
-					<a class="burger_menu_link">Lorem ipsum.</a>
-					<a class="burger_menu_link">Lorem ipsum.</a>
-					<a class="burger_menu_link">Lorem ipsum.</a>
-					<a class="burger_menu_link">Lorem ipsum.</a>
-					<a class="burger_menu_link">Lorem ipsum.</a>
+					<div class="logo">
+						<img src="img/logo-HighFive.svg">
+					</div>
+					<a class="burger_menu_link beta">Контекст и SEO</a>
+					<a class="burger_menu_link active_link">Внедрение CRM</a>
+					<a class="burger_menu_link beta">Создание сайтов</a>
+					<a class="burger_menu_link beta">Брендинг</a>
+					<a class="burger_menu_link beta">SMM</a>
+					<a class="burger_menu_link">+375 29 999 99 99</a>
+					<button class="btn popup_open">Заказать звонок</button>
 				</div>
 				<div class="burger_social">
 					<!-- <a class="burger_social_link"><img src="img/instagram.svg"></a>
@@ -36,11 +64,11 @@
 							<img src="img/logo-HighFive.svg">
 						</div>
 						<div class="menu_links">
-							<div class="menu_link"><a href="">Контекст и SEO</a></div>
-							<div class="menu_link active_link"><a href="">Внедрение CRM</a></div>
-							<div class="menu_link"><a href="">Создание сайтов</a></div>
-							<div class="menu_link"><a href="">Брендинг</a></div>
-							<div class="menu_link"><a href="">SMM</a></div>
+							<div class="menu_link beta"><a>Контекст и SEO</a></div>
+							<div class="menu_link active_link"><a>Внедрение CRM</a></div>
+							<div class="menu_link beta"><a>Создание сайтов</a></div>
+							<div class="menu_link beta"><a>Брендинг</a></div>
+							<div class="menu_link beta"><a>SMM</a></div>
 						</div>
 						<div class="row phone_btn">
 							<div class="phones">
@@ -48,7 +76,7 @@
 									<a href=""><p>+375 29 999 99 99</p></a>
 								</div>
 							</div>
-							<div><button class="btn">Заказать звонок</button></div>
+							<div><button class="btn popup_open">Заказать звонок</button></div>
 						</div>
 					</div>
 				</div>
@@ -74,7 +102,7 @@
 				<div class="main_text">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus beatae error ad asperiores dolore! Qui facere sequi quaerat mollitia facilis autem aperiam assumenda, quasi, optio id architecto eum, eaque rem!</p>
 				</div>
-				<button class="first_btn">Lorem ipsum.</button>
+				<button class="first_btn popup_open">Lorem ipsum.</button>
 			</div>
 		</section>
 		<section class="second_screen" id="second_screen">
@@ -91,7 +119,7 @@
 									<p class="second_title">Lorem ipsum dolor.</p>
 									<p class="slide_subtitle">Lorem ipsum dolor sit amet, consectetur.</p>
 									<p class="slide_inf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore tenetur quis explicabo accusamus officiis ipsa, blanditiis repellat dolor temporibus facilis optio vel eveniet dolore fuga asperiores ipsam quas perspiciatis.</p>
-									<button class="btn">Получить консультацию</button>
+									<button class="btn popup_open">Получить консультацию</button>
 								</div>
 							</div>
 						</div>
@@ -108,7 +136,7 @@
 							<h2 class="second_title">Lorem ipsum dolor.</h2>
 							<h3 class="second_text">Lorem ipsum dolor sit amet.</h3>
 						</div>
-						<button class="btn">Получить консультацию</button>
+						<button class="btn popup_open">Получить консультацию</button>
 					</div>
 					<div class="row">
 						<div class="adv_block">
@@ -343,7 +371,7 @@
 						<div class="steps_block steps_call_back">
 							<p>Lorem ipsum dolor.</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos laborum soluta sit sapiente blanditiis libero illum eaque cupiditate voluptas harum.</p>
-							<button class="btn">Заказать звонок</button>
+							<button class="btn popup_open">Заказать звонок</button>
 						</div>
 					</div>
 				</div>
@@ -430,7 +458,7 @@
 								<p class="call_back_form_title">Оставить заявку</p>
 								<p class="call_back_form_subtitle">Контактные данные</p>
 							</div>
-							<form>
+							<form class="form" method="POST" action="soap.php">
 								<div class="col form_inputs">
 									<input type="text" name="name" placeholder="Имя">
 									<input type="tel" name="phone" placeholder="Телефон" required="">
@@ -453,15 +481,16 @@
 						<img src="img/logo-HighFive.svg">
 					</div>
 					<div class="menu_links">
-						<div class="menu_link"><a href="">Контекст и SEO</a></div>
-						<div class="menu_link"><a href="">Внедрение CRM</a></div>
-						<div class="menu_link"><a href="">Создание сайтов</a></div>
-						<div class="menu_link"><a href="">Брендинг</a></div>
-						<div class="menu_link"><a href="">SMM</a></div>
+						<div class="menu_link beta"><a >Контекст и SEO</a></div>
+						<div class="menu_link "><a >Внедрение CRM</a></div>
+						<div class="menu_link beta"><a >Создание сайтов</a></div>
+						<div class="menu_link beta"><a >Брендинг</a></div>
+						<div class="menu_link beta"><a >SMM</a></div>
 					</div>
 					<div class="row phone_btn">
 						<div class="phones">
 							<div class="current_phone">
+								<a href=""><p>+375 (29) 999-99-99</p></a>
 								<a href=""><p>highfive@gmail.com</p></a>
 							</div>
 						</div>
@@ -471,6 +500,7 @@
 			</div>
 		</footer>
 		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/sweetalert.min.js"></script>
 		<script src="js/script.js"></script>
 		<script>
 		if (screen.width > 1000) document.write ('<script type="text/javascript" src="js/desc_script.js" ></sc' + 'ript>');
