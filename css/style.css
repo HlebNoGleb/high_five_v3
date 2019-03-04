@@ -171,14 +171,14 @@ footer a{
 	margin: auto;
 }
 h1{
-	font-size: calc(1em + 2vw);
+	font-size: calc(1em + 1vw);
 	font-weight: 400;
 	color: white;
 }
 h3{
 	font-size: calc(1em + 1vw);
 	/*font-weight: 400;*/
-	color: white;	
+	color: rgba(255, 255, 255, 1);	
 	padding: 10px 0;
 	font-weight: 500;
 }
@@ -250,7 +250,7 @@ h3{
 }
 .second_text{
 	font-size: calc(1em + .2vw);
-	color: rgba(6, 35, 43, .2);
+	color: rgba(6, 35, 43, .6);
 	padding: 10px 0 0 0;
 	font-weight: 300;
 }
@@ -325,12 +325,15 @@ h3{
 	color: white;
 	padding: 100px 0 50px 0;
 }
+.adv_content_title_back{
+	padding: 40px 0 40px 0!important;
+}
 .adv_content_text{
 	font-family: montserrat;
 	font-weight: 500;
 	font-size: 20px;
 	color: white;
-	padding: 0 45px;
+	padding: 0px 10px;
 }
 .adv_block:hover .adv_content_front{
 	opacity: 0;	
@@ -397,7 +400,7 @@ h3{
     height: 2px;
 }
 .sixth_screen .container > .row{
-	align-items: flex-start;
+	align-items: inherit;
 }
 .steps_block{
 	background-color:#53A2A9;
@@ -831,7 +834,7 @@ footer{
 	}
 	.content{
 		position: absolute;
-		top: 50%;
+		top: 59%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		width: 95%;
@@ -840,7 +843,7 @@ footer{
 	}
 	.first_screen{
 		background-color:#53A2A9;
-		height: 80vh;
+		height: 100vh;
 		position: relative;
 	}
 	.second_screen{
@@ -973,10 +976,20 @@ footer{
 		font-weight: 500;
 		font-size: 16px;
 		color: white;
-		padding: 0 45px;
+		padding: 0 20px;
 	}
 
 		
+}
+@media (max-width: 700px){
+		.adv_block{
+		max-width:  440px;
+		width: 100%;
+		height: 360px;
+		/*background-color:#A5CED1;*/
+		margin: 10px 0; 
+		border-radius: 6px;
+	}
 }
 @media(min-width: 500px){
 	nav{
@@ -1033,15 +1046,7 @@ footer{
 	}
 	.step_number_text {
 	    padding: 0 5px;
-	}
-	.adv_block{
-		max-width:  440px;
-		width: 100%;
-		height: 360px;
-		/*background-color:#A5CED1;*/
-		margin: 10px 0; 
-		border-radius: 6px;
-	}
+	}@
 	.price_block{
 		/*height: 80vh;*/
 		width: 100%;
