@@ -10,6 +10,9 @@ body{
 	background: linear-gradient(to bottom,red,blue);*/
 }
 
+.portfolio{
+	margin-bottom: 50px!important;
+}
 .portfolio_slide_img {
 	margin: 20px;
 }
@@ -17,6 +20,20 @@ body{
 	max-height: 30vmin;
 	max-width: 50vmax;
 	margin: auto;
+}
+.slick-dots li{	
+	background-color: rgba(0,0,0,0);
+	border: 3px solid #fff;
+	border-radius: 50%;	
+	width: 10px!important;
+    height: 10px!important;
+}
+.slick-dots .slick-active{
+	background-color: #fff;
+	border-radius: 50%;	
+}
+.slick-dots li button:before{
+	color: rgba(0,0,0,0)!important;
 }
 
 .popup{
@@ -302,6 +319,37 @@ h3{
 	border-radius: 6px;
 	position: relative
 }
+.dev_adv_block{
+	max-width:  440px;
+	width: 24%;
+	height: 360px;
+	margin: 10px 0; 
+	border-radius: 6px;
+	position: relative
+}
+.dev_adv_block .adv_content_img img{
+	max-width: 100px;
+}
+.dev_adv_block .adv_content_img{
+	margin: 20px;
+}
+.dev_adv_block .adv_content_title{
+	font-family: montserrat;
+	font-weight: 500;
+	font-size: 25px;
+	color: white;
+	padding: 0px;
+	border-bottom: 2px solid white;
+	padding: 10px;
+	display: inline-block;
+}
+.dev_adv_block .adv_content_text{
+	font-family: montserrat;
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	padding: 20px;
+}
 .adv_content_front{
 	position: absolute;
 	top: 50%;
@@ -346,6 +394,9 @@ h3{
 }
 .adv_block:hover .adv_content_front{
 	opacity: 0;	
+}
+.dev_adv_block:hover .adv_content_front{
+	opacity: 1;	
 }
 .fouth_text p{
 	color: #fff;
